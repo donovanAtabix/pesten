@@ -2,11 +2,10 @@
 
 error_reporting(E_ALL);
 
-use Pesten\src;
+use Pesten\src\Deck;
+use Pesten\src\Game;
 
-require_once 'app/Pesten/start.php';
-
-echo 'Lol. Verwijder mij zo direct maar.' . "\n";
+require __DIR__ . '/vendor/autoload.php';
 
 //makes a game table with cards
 $gameTable = new Game();
