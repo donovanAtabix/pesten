@@ -6,6 +6,8 @@ use Pesten\src;
 
 require_once 'app/Pesten/start.php';
 
+echo 'Lol. Verwijder mij zo direct maar.' . "\n";
+
 //makes a game table with cards
 $gameTable = new Game();
 
